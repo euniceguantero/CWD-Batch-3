@@ -1,0 +1,17 @@
+.div-content {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+}
+
+.text-yellow {
+    color: white;
+}
+
+.font-style{
+    font-style: italic;
+}
+
+.font-family{
+    font-family: 'Times New Roman', Times, serif';
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Table and Media</title>
+</head>
+<body class="blue lighten-1">
+<h1 class="blue-text text-darken-4 center">Table</h1>
+<p>Tables are a nice way to organize a lot of data. We provide a few utility classes to help you style your table as easily as possible. In addition, to improve mobile experience, all tables on mobile-screen widths are centered automatically.</p>
+<table>
+    <thead>
+      <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Jungkook</td>
+        <td>27</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>Taehyung</td>
+        <td>28</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>Jimin</td>
+        <td>28</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>Jin</td>
+        <td>30</td>
+        <td>Male</td>
+        <tr>
+    </tbody>
+  </table>
+<!--Striped Table-->
+  <h2 class="blue-text text-darken-4">Striped Table</h2>
+<p>Add class="striped" to the table tag for a striped table</p>
+<table class="striped">
+    <thead>
+      <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Jungkook</td>
+        <td>27</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>Taehyung</td>
+        <td>28</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>Jimin</td>
+        <td>28</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>Jin</td>
+        <td>30</td>
+        <td>Male</td>
+        <tr>
+    </tbody>
+  </table>
+
+<!--Highlight Table-->
+  <h2 class="blue-text text-darken-4">Highlight Table</h2>
+  <p>Add class="highlight" to the table tag for a highlight table</p>
+  <table class="highlight">
+      <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+      </thead>
+  
+      <tbody>
+        <tr>
+          <td>Jungkook</td>
+          <td>27</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Taehyung</td>
+          <td>28</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Jimin</td>
+          <td>28</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+            <td>Jin</td>
+            <td>30</td>
+            <td>Male</td>
+            <tr>
+      </tbody>
+    </table>
+
+  <!--Centered Table-->
+    <h2 class="blue-text text-darken-4">Centered Table</h2>
+    <p>Add class="centered" to the table tag to center align all the text in the table</p>
+    <table  class="highlight centered">
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Gender</th>
+          </tr>
+        </thead>
+    
+        <tbody>
+          <tr>
+            <td>Jungkook</td>
+            <td>27</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>Taehyung</td>
+            <td>28</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>Jimin</td>
+            <td>28</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>Jin</td>
+            <td>30</td>
+            <td>Male</td>
+            <tr>
+        </tbody>
+      </table>
+
+      <!--Responsive Table-->
+    <h2 class="blue-text text-darken-4">Responsive Table</h2>
+    <p>Add class="responsive-table" to the table tag to make the table horizontally scrollable on smaller screen widths.</p>
+    <table  class="responsive-table">
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Gender</th>
+          </tr>
+        </thead>
+    
+        <tbody>
+          <tr>
+            <td>Jungkook</td>
+            <td>27</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>Taehyung</td>
+            <td>28</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>Jimin</td>
+            <td>28</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>Jin</td>
+            <td>30</td>
+            <td>Male</td>
+            <tr>
+        </tbody>
+      </table>
+      <br><br>
+
+ <!--Media CSS-->
+ <div class="divider"></div>
+      <h1 class="blue-text text-darken-4 center">Image CSS</h1>
+      <h3 class="blue-text text-darken-4">Images</h3>
+<p>Images can be styled in different ways using Materialize</p>
+<p class="flow-text">Responsive Images</p>
+<p>To make images resize responsively to page width, you can add the class responsive-img to your image tag. It will now have a max-width: 100% and height:auto.</p>
+<p class="flow-text">Circular Images</p>
+<!-- card panel with circular image -->
+<div class="row">
+<div class="col s12 m8 offset-m2 l6 offset-l3">
+<div class="card-panel grey lighten-5 z-depth-1">
+    <div class="row">
+      <div class="col s2">
+        <img src="images/img1.jpg" alt="" class="circle responsive-img"> 
+      </div>
+      <div class="col s10">
+        <span class="black-text">
+          This is a square image. Add the "circle" class to it to make it appear circular.
+        </span>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+    <!--images-->
+    <div class="row">
+      <div class="col s12 m6">
+         <img src="images/img1.jpg" alt="" class="responsive-img">
+        </div>
+      <div class="col s12 m6">
+         <img src="images/img5.jpg" alt="" class="responsive-img">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6">
+         <img src="images/img6.jpg" alt="" class="responsive-img">
+        </div>
+    <div class="col s12 m6">
+         <img src="images/img7.jpg" alt="" class="responsive-img">
+</div>
+</div>
+</div>
+<br><br><br><br><br>
+<!--Videos-->
+<div class="divider"></div>
+<h1 class="blue-text text-darken-4">Videos</h1>
+<p class="flow-text">We provide a container for Embedded Videos that resizes them responsively.</p>
+<h3>Responsive Embeds</h3>
+<p class="flow-text">To make your embeds responsive, merely wrap them with a containing div which has the class video-container</p>
+<div class="video-container"><iframe width="923" height="519" src="https://www.youtube.com/embed/t0Q2otsqC4I" title="Tom &amp; Jerry | Tom &amp; Jerry in Full Screen | Classic Cartoon Compilation | WB Kids" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+<br><br><br><br><br>
+<div class="container">
+
+    <div class="row">
+     <div class="col s12 m9">
+
+     <h2 class="blue-text text-darken-4">Material Box</h2>
+     <p>Material box is a material design implementation of the Lightbox plugin. When a user clicks on an image that can be enlarged, Material box centers the image and enlarges it in a smooth, non-jarring manner. To dismiss the image, the user can either click on the image again, scroll away, or press the ESC key.
+     </p>
+
+     <!--Material Box-->
+     <img src="images/img1.jpg" alt="" class="materialboxed"
+     width="500" height="600">
+</div>
+</div>
+
+<div class="row">
+<div class="col s9">
+  <h2 class="blue-text text-darken-4">Slider</h2>
+<p>Our slider is a simple and elegant image carousel. You can also have captions that will be transitioned on their own depending on their alignment. You can also have indicators that show up on the bottom of the slider.
+</p>
+</div>
+</div>
+
+<div class="row">
+  <div class="col s12">
+<!--Slider-->
+    <div class="slider">
+      <ul class="slides">
+      <li>
+        <img src="images/img1.jpg" alt="">
+        <div class="caption center-align">
+          <h3> This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/img2.jpg" alt="">
+        <div class="caption left-align">
+          <h3> This is our big Tagline</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/img3.jpg" alt="">
+        <div class="caption right-align">
+          <h3> This is our big Tagline</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/img4.jpg" alt="">
+        <div class="caption center-align">
+          <h3> This is our big Tagline</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<div style="height: 1000px;"></div>
+
+<!--Jquery CDN-->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+ <script>
+    $(document).ready(function(){
+      //materialbox init
+      $('.materialboxed').materialbox({
+       inDuration: 1000,
+       outDuration: 1000
+      });
+      //slider init
+      $('.slider').slider({
+        indicators: false,
+        height: 350,
+        duration: 500,
+        interval: 1000
+      });
+    });
+  </script>
+</body>
+</html>
